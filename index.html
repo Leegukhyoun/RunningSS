@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>성수의 야간 드라이브</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="startBtn">
+        <h1>성수의 야간 드라이브</h1>
+        <p>게임 방법</p>
+        <span>Space : 점프</span>
+        <span>↓ : 찌그러지기</span>
+        <button>Start</button>
+    </div>
+    <div id="slide">
+        <div id="slideView">
+            <div id="slideGroup">
+                <img src="img/bg.png" alt="" class="slide_img">
+                <img src="img/bg.png" alt="" class="slide_img">
+                <img src="img/bg.png" alt="" class="slide_img">
+                <img src="img/bg.png" alt="" class="slide_img">
+                <img src="img/bg.png" alt="" class="slide_img">
+                <img src="img/bg.png" alt="" class="slide_img">
+                <img src="img/bg.png" alt="" class="slide_img">
+                <img src="img/bg.png" alt="" class="slide_img">
+                <img src="img/bg.png" alt="" class="slide_img">
+                <img src="img/bg.png" alt="" class="slide_img">
+                <img src="img/bg.png" alt="" class="slide_img">
+                <img src="img/bg.png" alt="" class="slide_img">
+                <img src="img/bg.png" alt="" class="slide_img">
+                <img src="img/bg.png" alt="" class="slide_img">
+                <img src="img/bg.png" alt="" class="slide_img">
+            </div>
+        </div>
+    </div>
+    <canvas id="canvas"></canvas>
+    <div id="building">
+        <img src="img/빌딩.png" alt="">
+    </div>
+    <div style="display: none" id="huddle">
+        <img src="img/돌.png" alt="">
+        <img src="img/돌2.png" alt="">
+        <img src="img/돌3.png" alt="">
+        <img src="img/돌4.png" alt="">
+        <img src="img/돌5.png" alt="">
+        <img src="img/박쥐.png" alt="">
+        <img src="img/둘기.png" alt="">
+    </div>
+    <div id="moon" style="display: none">
+        <img src="img/달.png" alt="">
+    </div>
+    <div id="fog" style="display: none">
+        <img src="img/pngwing.com.png" alt="">
+    </div>
+    <div id="light" style="display: none">
+        <img src="img/등.png" alt="">
+    </div>
+    <div id="end">
+        <h2>게임 종료!</h2>
+        <p>성수가 지불한 수리비 : <span id="score">0</span><span>만 원</span></p>
+        <button id="reGame">다시하기</button>
+    </div>
+    <script src="js/js.js"></script>
+</body>
+</html>
